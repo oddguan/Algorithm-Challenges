@@ -50,6 +50,10 @@ class Solution2:
                 find += 1
         return _input[-1]+1
 
+class Solution3:
+    '''
+    Hash Table Solution. 
+    '''
 if __name__ == "__main__":
     s1 = Solution1()
     s2 = Solution2()
