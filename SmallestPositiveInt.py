@@ -52,12 +52,34 @@ class Solution2:
 
 class Solution3:
     '''
-    Hash Table Solution. 
+    Create another list to store solution. Going through the list and insert 
+    the certain index into a new list, and finally go through the new list to 
+    find the missing smallest integer. 
+    This solution has an issue, which is that it takes a lot of space if the 
+    largest number in the list is huge, even if the amount of elements in the 
+    input list is small. 
+
+    Time Compexity: O(n)
+    Space Complexity: O(n) (depends on the largest number in the list)
     '''
+    def small_positive_int(self, _input):
+        _max = max(_input)
+        index = [None] * (_max + 1)
+        for e in _input:
+            if index[e] == None:
+                index[e] = 1
+        for i,e in enumerate(index):
+            if e == None:
+                return i+1
+        return _max + 1
+
+
 if __name__ == "__main__":
     s1 = Solution1()
     s2 = Solution2()
+    s3 = Solution3()
     _input = [7, 8, 9, 10, 12]
 
     print(s1.small_positive_int(_input))
     print(s2.small_positive_int(_input))
+    print(s3.small_positive_int(_input))
