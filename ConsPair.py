@@ -7,6 +7,9 @@ This is a functional programming problem.
 function 'cons' return a pair function that takes in a function, and return the
 result of the take-in function. All we have to do is actually implement 'f', 
 and I did the 'left' and 'right' function inside car and cdr. 
+
+cdr is implemented in the lambda notation provided by python, and car is 
+implemented in a normal def notation.
 '''
 
 def cons(a, b):

@@ -1,7 +1,11 @@
-def outer(num1):
-    def inner_increment(num1):  # Hidden from outer code
-        return num1 + 1
-    num2 = inner_increment(num1)
-    print(num1, num2)
+def test(arr):
+    bucket_sort = [True] + [False] * len(arr)  # skip 0 index
+    print(len(bucket_sort))
+    for element in filter(lambda x: 0 < x < len(arr), arr):
+        bucket_sort[element] = True
+    print(len(bucket_sort))
+    return bucket_sort.index(False)
 
-outer(10)
+if __name__ == "__main__":
+    arr = [15000,16000]
+    print('final result: ', test(arr))

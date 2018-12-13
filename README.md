@@ -9,3 +9,7 @@ I mainly use Python for solving the problem.
 2. [Smallest Missing Positive Integer](SmallestPositiveInt.py)
 
 3. [Return The Left And Right Element Of A Pair (functional programming)](ConsPair.py)
+
+4. [Return Whether Any Two Numbers From The List Add Up To K](TwoNumbersAddUpK.py)
+
+14. [Use Monte Carlo Method to Estimate the Value of Pi](MonteCarloPi.py)
