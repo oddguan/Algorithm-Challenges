@@ -18,5 +18,11 @@ I mainly use Python and JavaScript for solving problems.
 
 7. [Find our if a number is a happy number](HappyNumber.js)
 
+8. [Remove a certain value in a linked list](RemoveElementLinkedList.js)
+
+9. [Count the number of prime numbers below n](CountPrimes.js)
+
+10. [Determine whether two strings are isomorphic](IsomorphicString.js)
+
 14. [Use Monte Carlo Method to Estimate the Value of Pi](MonteCarloPi.py)
 
