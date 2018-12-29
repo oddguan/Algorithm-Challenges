@@ -22,6 +22,20 @@ def bfs(root, queue=deque(), _list=list()):
 
 def serialize(root):
     output = ""
+    queue = deque()
+    queue.append(root)
+    output += root.val + "^"
+    current = root
+    while(len(queue) != 0):
+        if current is None:
+            current = queue.popleft()
+            output += "None^"
+            continue
+        queue.append(current.left)
+        queue.append(current.right)
+        output += current.left.val + "^"
+        output += current.right.val + "^"
+        current = queue.popleft()
 
 
 if __name__ == "__main__":

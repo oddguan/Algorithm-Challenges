@@ -1,6 +1,6 @@
 This repos serve to save my solutions to algorithm problems.
 
-I mainly use Python for solving the problem.
+I mainly use Python and JavaScript for solving problems.
 
 ## List of Problems:
 
@@ -12,4 +12,11 @@ I mainly use Python for solving the problem.
 
 4. [Return Whether Any Two Numbers From The List Add Up To K (TwoSum)](TwoSum.py)
 
+5. [Reverse Bits Representation](reverseBit.js)
+
+6. [House Robber Problem](HouseRobber.js)
+
+7. [Find our if a number is a happy number](HappyNumber.js)
+
 14. [Use Monte Carlo Method to Estimate the Value of Pi](MonteCarloPi.py)
+
