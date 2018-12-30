@@ -43,7 +43,6 @@ var isIsomorphic = function(s, t) {
     memo2[t[j]] = j;
   }
   if (Object.keys(memo).length === Object.keys(memo2).length) {
-    console.log(Object.keys(memo).length);
     return true;
   }
   return true;
