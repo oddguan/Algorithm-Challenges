@@ -24,5 +24,14 @@ I mainly use Python and JavaScript for solving problems.
 
 10. [Determine whether two strings are isomorphic](IsomorphicString.js)
 
+11. [Reverse a given integer](ReverInteger.js)
+
+12. [Roman numerals to integer](RomanToInteger.js)
+
+13. [Check if a parentheses expression is valid](ValidParentheses.js)
+
 14. [Use Monte Carlo Method to Estimate the Value of Pi](MonteCarloPi.py)
 
+15. [Find the longest common prefix of a list of strings](LongestCommonPrefix.js)
+
+16. [Merge two sorted linked list](MergeTwoSortedList.js)

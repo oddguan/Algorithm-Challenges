@@ -1,4 +1,14 @@
-
-if __name__ == "__main__":
-    a = [1,2,3,4,5]
-    print(a[:3])
+def isValid(s):
+    from collections import deque
+    stack = deque()
+    symbols = {"}": "{", "]": "[", ")": "("}
+    for c in s:
+        if c in symbols:
+            if not stack:
+                return False
+            last = stack.pop()
+            if last != symbols[c]:
+                return False
+        else:
+            stack.append(c)
+    return not stack
