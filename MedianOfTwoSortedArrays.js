@@ -38,6 +38,4 @@ class Solution {
 }
 
 s1 = new Solution();
-// console.log(s1.findMedianSortedArrays([2], [1,3]));
 console.log(s1.findMedianSortedArrays([10001, 10002, 10007], [10000, 10004, 10006]));
-// console.log((2+3)/2);
